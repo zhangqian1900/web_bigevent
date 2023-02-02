@@ -76,7 +76,7 @@ $(function() {
           console.log(res.token);
           //将登录成功得到的token字符串，保存到localstotage中
           localStorage.setItem('token',res.token)
-          location.href = '/index.html'
+          location.href = '/project-big_event/index.html'
         }
       })
     })
